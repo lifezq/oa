@@ -1,0 +1,2 @@
+1382511635
+a:3:{s:4:"p_id";a:6:{s:4:"type";s:7:"integer";s:4:"null";b:0;s:7:"default";N;s:6:"length";i:11;s:3:"key";s:7:"primary";s:7:"comment";s:4:"p_id";}s:5:"p_uid";a:6:{s:4:"type";s:7:"integer";s:4:"null";b:0;s:7:"default";N;s:6:"length";i:11;s:3:"key";s:5:"index";s:7:"comment";s:8:"用户ID";}s:12:"p_nav_allows";a:7:{s:4:"type";s:6:"string";s:4:"null";b:0;s:7:"default";s:0:"";s:6:"length";i:255;s:7:"collate";s:15:"utf8_general_ci";s:7:"comment";s:47:"允许用户访问的导航ID，以逗号分开";s:7:"charset";s:4:"utf8";}}

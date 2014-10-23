@@ -1,0 +1,164 @@
+/* 
+    Document   : lifezq
+    Created on : 2013-8-5, 15:54:38
+    Author     : Otc
+    Description:
+        Purpose of the stylesheet follows.
+*/
+/*公共样式*/
+*{margin:0px;padding:0px;}
+a{text-decoration:none;}
+img{border:none;}
+body{font-size:13px;}
+ul{list-style:none;}
+
+
+
+
+/*OA框架顶部*/
+.zq_top{
+width:100%;
+height:100px;
+background:#427FB5;}
+
+.zq_top .zq_time{
+float:left;
+width:283px;
+height:23px;
+line-height:25px;
+text-align:center;
+margin:10px 50px 0 100px;
+}
+
+.zq_top .zq_top_menu{
+width:100%;
+height:37px;
+float:left;
+margin-top:60px;
+
+}
+
+
+.zq_top .zq_top_menu .zq_top_a{
+display:block;
+float:left;
+width:110px;
+height:27px;
+font-weight:bold;
+line-height:27px;
+line-height:22px\9;
+text-align:center;
+color:#333;
+font-size:12px;
+}
+
+/*OA框架左侧*/
+.zq_left_menu{
+width:100%;
+height:auto;
+margin-left:6px;
+
+}
+
+
+
+.zq_left_menu .zq_left_menu_list{
+width:224px;
+height:auto;
+border:1px solid #d0d6d4;
+padding-top:3px;}
+
+.zq_left_menu .zq_left_menu_list .zq_left_li{
+width:220px;
+height:auto;
+margin-left:2px;
+margin-top:1px;
+text-indent:50px;
+}
+
+.zq_left_menu .zq_left_menu_list li a{
+color:#FFFFFF;
+line-height:28px;}
+
+.zq_left_menu .zq_left_menu_list .zq_left_li ul{
+text-indent:18px;}
+
+.zq_left_menu .zq_left_menu_list .zq_left_li ul li a{
+color:#666;}
+.zq_left_menu .zq_left_menu_list .zq_left_li_hover{
+    margin-left:15px;
+}
+.zq_index_main{
+    font-size:12px;
+}
+.zq_index_main h2{
+    margin:10px;
+}
+._clear{clear:both;}
+._center{text-align: center;}
+.table_th{background:#F0F0F0;font-weight:normal;font-size:14px;height:22px;line-height:22px;}
+.pwd_strong{display: block;width:45px;height:20px;background:#ccc;float:left;border:1px solid #aaa;line-height: 20px;text-align:center; color:#FFF;font-weight:bold;margin:5px 0 0 5px;}
+#EmailEmComeToSelect{display:none;padding:10px;border:1px solid #aaa;}
+#EmailEmComeToSelect a{color:#212121;}
+#EmailEmComeToSelect a:hover{color:#060;}
+.tr_notice{color:#060;}
+/* 分页样式**/
+.paginate_box{clear:both;margin-top:5px;text-align: right;}
+.paginate_box ul{float:right;}
+.paginate_box li{float:left;list-style: none;}
+.paginate_box li a,.paginate_box li.current_page,.paginate_box li.current_prev_next{color:#000;background:#E3E3E3;display:block;width:23px;height:20px;font-size:12px;line-height:20px;text-align: center;border:1px solid #363636;text-decoration: none;margin-right:5px;}
+.paginate_box li a:hover{color:#a00;background:#ccc;font-weight: bold;}
+.paginate_box li.paginate_prev_next a,.paginate_box li.current_prev_next{width:65px;}
+.paginate_box li.current_prev_next{display:none;}
+.paginate_box li.paginate_first_end a{width:32px;}
+.paginate_box li.current_page{font-weight: bold;}
+/*
+信息查看 DIV 样式
+*/
+.read_content{line-height:20px;text-indent:2em;}
+.div_main_box .div_main table td .read_content{background:#F0F0F0;}
+.oa_td_notice,._ccc{color:#ccc;}
+._green{color:#060;}
+._yellow{color:#E6B800;}
+._red{color:#a00;}
+._blue{color:#06F;}
+/*
+权限分配样式
+*/
+.access_menu_ul{}
+.access_menu_li{line-height:25px;background:#ccc;float:left;border-right:1px solid #aaa;height:260px;}
+.access_menu_li .access_menu_child{text-indent: 2em;}
+.access_menu_div{background:#0099CC;padding:5px 8px;}
+.access_menu_li .access_menu_a{font-size:20px;font-weight:bold;color:#000;}
+/*
+短消息
+*/
+.sms_button{margin-left: 300px;border:1px solid #ccc;padding:3px 5px;margin-top:10px;cursor: pointer;}
+.sms_button:hover{background:#E5EFFD;}
+.sms_reply_box{background:#F2F2F2;padding:20px}
+.sms_div_box,.sms_reply_list{padding:0px 20px;width:375px;}
+.sms_reply_list{overflow:hidden;}
+.sms_reply_list_top{border-bottom:1px solid #aaa;margin:10px 0;padding:0  20px 15px 20px;}
+.sms_message{line-height:18px;padding:5px;}
+.sms_reply_list_top .sms_message{margin:0px;}
+.sms_reply_content{text-indent: 2em;}
+.sms_floor{width:400px;text-align: right;color:#aaa;margin:15px 0;}
+.sms_reply_list_but{text-align: right;}
+.no_reply{margin-bottom:20px;padding-left:20px;font-size:14px;}
+.sms_h3_1{color:#363636;}
+.sms_h3_2{color:#222;margin:10px;text-align:left;}
+.sms_reply_box ._input2 {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #DDDDDD;
+    height: 150px;
+    width: 370px;
+}
+.sms_reply_list_2{margin-left:10px;}
+.sms_reply_list_3{margin-left:20px;}
+.sms_reply_list_4{margin-left:30px;}
+.sms_reply_list_5{margin-left:40px;}
+.sms_reply_list_6{margin-left:50px;}
+.sms_reply_list_7{margin-left:60px;}
+.sms_reply_list_8{margin-left:70px;}
+.sms_reply_list_9{margin-left:80px;}
+.sms_reply_list_10{margin-left:90px;}

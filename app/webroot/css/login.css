@@ -1,0 +1,53 @@
+/*公共样式*/
+*{margin:0px;padding:0px;}
+a{text-decoration:none;}
+img{border:none;}
+body{font-size:13px;}
+ul{list-style:none;}
+
+/*用户样式*/
+.login{
+margin:70px auto;
+width:778px;
+height:386px;
+background:#427FB5;
+}
+
+.login .login_text{
+width:320px;
+height:270px;
+float:right;
+margin-top:30px;	
+margin-right:60px;}
+
+.login .login_text table{
+padding:30px;}
+
+.login .login_text table tr{
+line-height:50px;}
+
+.login .login_text table tr td{
+color:#FFF;
+font-size:13px;}
+
+.login .login_text table tr td .L_input1{
+width:150px;
+height:30px;
+border:none;}
+
+.login .login_text table tr td .L_input2{
+width:80px;
+height:30px;
+border:none;}
+
+.login .login_text table tr td .L_input3{
+width:80px;
+height:30px;
+background:#ccc;
+cursor:pointer;
+}
+
+.login .login_text table tr td .verify{
+position:relative;
+top:10px;
+left:2px;}
